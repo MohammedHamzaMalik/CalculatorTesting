@@ -8,21 +8,21 @@ import com.calculator.commands.SubtractCommand
 import org.junit.jupiter.api.*
 import kotlin.test.assertEquals
 
-class CalculatorTest {
+class CalculatorTest: AppTest() {
     private val calculator = Calculator()
-    companion object {
-        @BeforeAll
-        @JvmStatic
-        fun beforeAll() {
-            println("This function is executed BEFORE ALL test functions.")
-        }
-
-        @AfterAll
-        @JvmStatic
-        fun afterAll() {
-            println("This function is executed AFTER ALL test functions.")
-        }
-    }
+//    companion object {
+//        @BeforeAll
+//        @JvmStatic
+//        fun beforeAll() {
+//            println("This function is executed BEFORE ALL test functions.")
+//        }
+//
+//        @AfterAll
+//        @JvmStatic
+//        fun afterAll() {
+//            println("This function is executed AFTER ALL test functions.")
+//        }
+//    }
 
     @BeforeEach
     fun beforeEach() {
