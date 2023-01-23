@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.calculator.testing.CalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-23T04:03:48" hostname="hamzam-ThinkPad-E14-Gen-4" time="0.019">
+  <properties/>
+  <testcase name="test for subtraction()" classname="com.calculator.testing.CalculatorTest" time="0.014"/>
+  <testcase name="test for addition()" classname="com.calculator.testing.CalculatorTest" time="0.001"/>
+  <testcase name="test for division()" classname="com.calculator.testing.CalculatorTest" time="0.001"/>
+  <testcase name="division by zero()" classname="com.calculator.testing.CalculatorTest" time="0.001"/>
+  <testcase name="test for multiplication()" classname="com.calculator.testing.CalculatorTest" time="0.001"/>
+  <system-out><![CDATA[This function is executed BEFORE ALL test functions.
+This function is executed BEFORE EACH test function.
+This function is executed AFTER EACH test function.
+This function is executed BEFORE EACH test function.
+This function is executed AFTER EACH test function.
+This function is executed BEFORE EACH test function.
+This function is executed AFTER EACH test function.
+This function is executed BEFORE EACH test function.
+This function is executed AFTER EACH test function.
+This function is executed BEFORE EACH test function.
+This function is executed AFTER EACH test function.
+This function is executed AFTER ALL test functions.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
